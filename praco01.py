@@ -1,7 +1,10 @@
-from itertools import permutations
-from itertools import combinations
-data=['a','b','c',1,2,3,4,5,6,7]
-result1=list(permutations(data,3))
-result2=list(combinations(data,2))
-print(result1)
-print(result2)
+a=-1
+b=2
+print(a//b)
+
+
+#ABCDE 13023 dfs bfs 모르는구나...
+# 연산자 끼워넣기 14888 이건 중복을 제거 해야한다는데 순열에서..
+# 외판원 순회2 10971.. 그래프는 1도 모르겠네...
+# 테트로미노 14500 모르겠다
+# 다음 순열 10972 왜 틀린지 모르겠
