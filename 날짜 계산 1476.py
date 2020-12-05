@@ -17,5 +17,3 @@ while True:
     m+=1
     if m==20:
         m=1
-
-
