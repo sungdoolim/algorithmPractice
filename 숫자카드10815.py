@@ -4,10 +4,11 @@ def divi(i,start,end):
     #print("start : ",start,"end : ",end)
     mid=int((start+end)//2)
     global c
+    c=0
     if start>=end:
         #print(start,end,a[start])
         if i==a[start]or i==a[end]:
-            result[c]=1
+            result[c]=1# 문제 없음 / 맞은 문제임 
         else:
             result[c]=0
         c+=1
@@ -28,7 +29,7 @@ def divi(i,start,end):
         
 
     return 0;
-global n,m,a,b,c
+global n,m,a,b
 n=int(sys.stdin.readline())
 
 a=list(map(int,sys.stdin.readline().split()))
@@ -39,7 +40,7 @@ m=int(input())
 b=list(map(int,input().split()))
 #print(b)
 result=[0]*m
-c=0
+
 for i in b:
     divi(i,0,n-1)
 #print(result)
